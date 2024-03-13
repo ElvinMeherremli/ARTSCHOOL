@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.top_main__section {
+    width: 100%;
+    height: 772px;
+    background: url('https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/311ebf9ec39a5c1f8b8241af/pexelsphoto1927507.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-left: 400px;
+}
+
+.top_main__section h1 {
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 192px;
+    margin-top: 142px;
+    margin-top: 300px;
+}
+
+.top_main__section span {
+    font-size: 72px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+}
+
+.about__section {
+    width: 100%;
+    height: 514px;
+    display: flex;
+    gap: 65px;
+    justify-content: center;
+    align-items: center;
+    background-color: #7DA2A9;
+}
+
+
+.about__section .descr {
+    width: 520px;
+}
+
+.about__section .title h2 {
+    font-size: 30px;
+    text-align: end;
+    line-height: 30px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+.about__section .title p {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.about__section .descr {
+    color: white;
+    line-height: 25px;
+}
+
+.programs__section {
+    height: 984px;
+    width: 100%;
+    padding: 140px 400px 0;
+}
+
+.programs__section h2 {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.programs__section .under_title {
+    color: #111;
+    text-align: center;
+    width: 652px;
+    margin: 0 auto;
+}
+
+.programs__section .unit .box svg {
+    width: 50px;
+    height: 50px;
+}
+
+.programs__section .unit .box h3 {
+    font-size: 24px;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+.programs__section .unit {
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.programs__section .unit .box {
+    width: 366px;
+    height: 286px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.programs__section .unit .box p {
+    margin-top: 10px;
+    width: 326px;
+}
+
+.hear__section {
+    height: 684px;
+    width: 100%;
+    background-color: #18181E;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.hear__section img {
+    width: 560px;
+    height: 500px;
+}
+
+.hear__section .unit {
+    width: 560px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hear__section .unit h2 {
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+}
+
+.hear__section .unit p {
+    color: white;
+    line-height: 26px;
+}
+
+.hear__section button {
+    width: 138px;
+    height: 45px;
+    margin-top: 30px;
+    border: none;
+    background-color: #7DA2A9;
+    color: white;
+    font-size: 16px;
+}
+
+.gallery__section {
+    height: 1600px;
+    width: 100%;
+    padding-top: 95px;
+}
+.gallery__section h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+}
+
+.gallery__section p {
+    width: 600px;
+    color: #111;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.gallery__section .unit {
+    width: 906px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery__section .unit img {
+    width: 443px;
+    height: 382px;
+    object-fit: cover;
+}
+
+.values__section {
+    height: 349px;
+    width: 100%;
+    background-color: #7DA2A9;
+    display: flex;
+    justify-content: center;
+    gap: 245px;
+    align-items: center;
+}
+
+.values__section h4 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.values__section p {
+    color: white;
+}
+
+.images__section {
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.images__section img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main_bottom__section {
+    height: 664px;
+    width: 100%;
+}
+
+.main_bottom__section .unit {
+    display: flex;
+}
+
+.main_bottom__section .unit .box:nth-child(1) {
+    padding-left: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 664px;
+    gap: 20px;
+    background-color: #7DA2A9;
+}
+
+.main_bottom__section .unit .box {
+    width: 50%;
+}
+
+.main_bottom__section .unit .box:nth-child(1) h3 {
+    font-size: 30px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.main_bottom__section .unit .box:nth-child(1) p {
+    color: white;
+}
+
+.main_bottom__section .icons svg {
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+}
+
+
+
+.main_bottom__section .unit .box:nth-child(2) form {
+    background-color: #18181E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 664px;
+    margin: 0 auto;
+    padding-top: 200px;
+    gap: 10px;
+}
+
+.main_bottom__section .unit .box:nth-child(2) form input {
+    width: 515px;
+    height: 48px;
+    background-color: #18181E;
+    padding: 10px 12px;
+    border: 1px white solid;
+    outline: none;
+}
+.main_bottom__section .unit .box:nth-child(2) form input::placeholder {
+    color: gray;
+    font-size: 16px;
+}
+.main_bottom__section .unit .box:nth-child(2) form textarea {
+    width: 515px;
+    height: 124px;
+    background-color: #18181E;
+    padding: 10px 12px;
+    border: 1px white solid;
+    outline: none;
+}
+.main_bottom__section .unit .box:nth-child(2) form textarea::placeholder {
+    color: gray;
+    font-size: 16px;
+}
+
+.main_bottom__section .unit .box:nth-child(2) form button {
+    width: 112px;
+    height: 46px;
+}
+
+.main_bottom__section .unit .box:nth-child(2) form button {
+    background-color: #7DA2A9;
+    border: none;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97.5px;
+    width: 100%;
+    background-color: #333333;
+
+}
+
+footer p {
+    color: white;
+}
